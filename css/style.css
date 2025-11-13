@@ -1,0 +1,217 @@
+/* ------------------------------
+   🌸 FitLife Studio - Premium Styles (Restored & Updated)
+   ------------------------------ */
+
+/* General Reset & Fonts */
+body {
+  font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background: linear-gradient(135deg, #F6F5FF, #EDEBFF);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #6C63FF, #8A82FF);
+  box-shadow: 0 2px 10px rgba(108, 99, 255, 0.3);
+}
+.navbar-brand {
+  font-weight: 700;
+  color: #fff !important;
+  letter-spacing: 1px;
+}
+.nav-link {
+  color: #f1f1f1 !important;
+  margin-right: 12px;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  color: #FFD700 !important;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(108, 99, 255, 0.7), rgba(108, 99, 255, 0.6)),
+              url('https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #f9f9f9;
+  margin-top: 10px;
+}
+.hero .btn {
+  background-color: #FFD700;
+  color: #333;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+}
+.hero .btn:hover {
+  background-color: #ffcc00;
+  transform: translateY(-3px);
+}
+
+/* Section Titles */
+h2 {
+  color: #6C63FF;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #FFD700;
+  border-radius: 2px;
+  margin: 8px auto 0;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(108, 99, 255, 0.1);
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(108, 99, 255, 0.2);
+}
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card-body {
+  text-align: center;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #6C63FF;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: all 0.3s;
+}
+.btn-primary:hover {
+  background-color: #5b55e2;
+  transform: translateY(-2px);
+}
+
+/* Schedule Table (Aesthetic Style) */
+.schedule-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(108, 99, 255, 0.15);
+}
+.schedule-table th {
+  background: linear-gradient(90deg, #6C63FF, #8A82FF);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-weight: 600;
+}
+.schedule-table td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+.schedule-table tr:hover {
+  background-color: #f9f7ff;
+  transition: 0.3s;
+}
+
+/* Forms (for register.html) */
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(108, 99, 255, 0.1);
+  transition: 0.3s;
+}
+form:hover {
+  box-shadow: 0 8px 25px rgba(108, 99, 255, 0.15);
+}
+form label {
+  font-weight: 600;
+  color: #555;
+}
+form input, form select {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+}
+form button {
+  background-color: #6C63FF;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s;
+}
+form button:hover {
+  background-color: #5b55e2;
+  transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(90deg, #6C63FF, #8A82FF);
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 -2px 10px rgba(108, 99, 255, 0.2);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .card-img-top {
+    height: 160px;
+  }
+}
