@@ -43,7 +43,8 @@ This project was created for the **Web Design and Development (DFK20013)** subje
 ---
 
 ## 🚀 Hosting Link
-🔗 **Live Website:** [https://yourusername.github.io/FitLifeStudio/](https://yourusername.github.io/FitLifeStudio/)
+🔗 **Live Website:** (https://reenuga24.github.io/FitnessStudio/)
+
 
 *(Replace with your actual GitHub Pages URL once it’s live.)*
 
@@ -58,4 +59,5 @@ All images are royalty-free and sourced from:
 
 ## 📜 License
 This project is developed for educational purposes only and follows ethical and copyright-free practices.
+
 
