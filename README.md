@@ -36,10 +36,9 @@ This project was created for the **Web Design and Development (DFK20013)** subje
 ## 👩‍💻 Developers
 | Name | Role | Responsibility |
 |------|------|----------------|
-| Amikal | Project Leader | Coordinated and managed repository |
+| Amiqal | Project Leader | Coordinated and managed repository |
 | Reenuga | Designer | Handled color theme and layout |
 | Vishaa | Content Editor | Wrote page text and documentation |
-| Sri | Tester & Assistant Developer | Debugged, tested responsiveness, and finalized report |
 
 ---
 
@@ -59,3 +58,4 @@ All images are royalty-free and sourced from:
 
 ## 📜 License
 This project is developed for educational purposes only and follows ethical and copyright-free practices.
+
